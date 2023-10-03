@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario h1 {
+    text-align: center;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+.idiomas {
+    font-size: 11pt;
+    color: rgb(167, 159, 159);
+
+}
+
+label {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="url"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 3px 3px 5px grey;
+}
+
+/* Estilo para las etiquetas de checkbox */
+label.checkbox-label {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Estilo para resaltar las selecciones */
+input[type="checkbox"]:checked + label.checkbox-label {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}

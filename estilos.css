@@ -1,0 +1,82 @@
+
+.linea-separacion {
+    border-top: 3px solid #171a21; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+
+header {
+    text-align: center; 
+    background-color: #2E1F27; 
+    padding: 30px; 
+    display: flex; 
+    align-items: center; 
+}
+
+.logo {
+    max-width: 40%; 
+    border-color: #617073;
+    margin: 15px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+
+h1 {
+    flex-grow: 1; 
+    margin-bottom: 20px;
+    font-family: candara;
+    font-size: 35pt;
+    color: #E7E393;
+}
+
+h3 {
+    font-family: candara;
+    font-size: 16pt;   
+     
+}
+
+#guion{
+    font-family: candara;
+    font-size: 12pt;
+}
+
+#guiont{
+    font-family: candara;
+    font-size: 12pt;
+    color: #fff;
+}
+#letra{
+    font-family: candara;
+    font-size: 10pt;
+}
+
+#subtitulos{
+    font-family: candara;
+    font-size: 11pt;
+}
+
+h4{
+    font-family: candara;
+    font-size: 13pt;
+}
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.columna1 {
+    flex: 30%;
+    padding: 20px;
+    background-color: #F4C95D;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.columna2 {
+    flex: 70%; 
+    padding: 20px;
+    background-color: #E7E393;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+        

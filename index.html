@@ -1,0 +1,238 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos_form.css">
+</head>
+<body>
+
+<div class="formulario">
+    <h1>Formulario</h1>
+    <form action="saludo.php" method="POST">
+        <div class="campo">
+            <label for="nombres">Nombres:</label>
+            <input type="text" id="nombres" name="nombres" placeholder="Ingrese sus nombres" required>
+        </div>
+        
+        <div class="campo">
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Ingrese sus apellidos" required>
+        </div>
+        
+        <div class="campo">
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" name="telefono" placeholder="Ingrese su teléfono" required >
+        </div>
+        
+        <div class="campo">
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" placeholder="Ingrese su correo" required >
+        </div>
+        
+        <div class="campo">
+            <label for="nacionalidad">Pais:</label>
+            <select id="nacionalidad" name="nacionalidad" placeholder="Ingrese su Pais">
+                <option value="Argentina">Argentina</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Canadá">Canadá</option>
+                <option value="Chile">Chile</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Costa Rica">Costa Rica</option>
+                <option value="Cuba">Cuba</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="El Salvador">El Salvador</option>
+                <option value="Estados Unidos">Estados Unidos</option>
+                <option value="Guatemala">Guatemala</option>
+                <option value="Honduras">Honduras</option>
+                <option value="México">México</option>
+                <option value="Nicaragua">Nicaragua</option>
+                <option value="Panamá">Panamá</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Perú">Perú</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Venezuela">Venezuela</option>
+            </select><br><br>
+        </div>
+        
+        <div class="campo">
+            <label for="web_personal">Ocupacion (opcional):</label>
+            <input type="text" id="web_personal" name="web_personal" placeholder="Ingrese su Ocupacion"  >
+        </div>
+
+        <div class="campo">
+            <label for="idiomas">Idiomas:</label><br><br>
+            <label for="aleman">Alemán:</label>
+            <input type="radio" id="aleman" name="idioma_aleman" value="Ninguno" checked>
+            <label class="idiomas" for="ninguno_aleman">Ninguno</label>
+            <input type="radio" id="ninguno_aleman" name="idioma_aleman" value="Básico">
+            <label class="idiomas" for="basico_aleman">Básico</label>
+            <input type="radio" id="basico_aleman" name="idioma_aleman" value="Intermedio">
+            <label class="idiomas" for="intermedio_aleman">Intermedio</label>
+            <input type="radio" id="intermedio_aleman" name="idioma_aleman" value="Avanzado">
+            <label class="idiomas" for="avanzado_aleman">Avanzado</label>
+            <input type="radio" id="avanzado_aleman" name="idioma_aleman" value="Fluido">
+            <label class="idiomas" for="fluido_aleman">Fluido</label>
+        </div>
+
+        <div class="campo">
+            <label for="frances">Francés:</label>
+            <input type="radio" id="frances" name="idioma_frances" value="Ninguno" checked>
+            <label class="idiomas" for="ninguno_frances">Ninguno</label>
+            <input type="radio" id="ninguno_frances" name="idioma_frances" value="Básico">
+            <label class="idiomas" for="basico_frances">Básico</label>
+            <input type="radio" id="basico_frances" name="idioma_frances" value="Intermedio">
+            <label class="idiomas" for="intermedio_frances">Intermedio</label>
+            <input type="radio" id="intermedio_frances" name="idioma_frances" value="Avanzado">
+            <label class="idiomas" for="avanzado_frances">Avanzado</label>
+            <input type="radio" id="avanzado_frances" name="idioma_frances" value="Fluido">
+            <label class="idiomas" for="fluido_frances">Fluido</label>
+        </div>
+
+        <div class="campo">
+            <label for="ingles">Inglés:</label>
+            <input type="radio" id="ingles" name="idioma_ingles" value="Ninguno" checked>
+            <label class="idiomas" for="ninguno_ingles">Ninguno</label>
+            <input type="radio" id="ninguno_ingles" name="idioma_ingles" value="Básico">
+            <label class="idiomas" for="basico_ingles">Básico</label>
+            <input type="radio" id="basico_ingles" name="idioma_ingles" value="Intermedio">
+            <label class="idiomas" for="intermedio_ingles">Intermedio</label>
+            <input type="radio" id="intermedio_ingles" name="idioma_ingles" value="Avanzado">
+            <label class="idiomas" for="avanzado_ingles">Avanzado</label>
+            <input type="radio" id="avanzado_ingles" name="idioma_ingles" value="Fluido">
+            <label class="idiomas" for="fluido_ingles">Fluido</label>
+        </div>
+
+        <div class="campo">
+            <label for="portugues">Portugués:</label>
+            <input type="radio" id="portugues" name="idioma_portugues" value="Ninguno" checked>
+            <label class="idiomas" for="ninguno_portugues">Ninguno</label>
+            <input type="radio" id="ninguno_portugues" name="idioma_portugues" value="Básico">
+            <label class="idiomas" for="basico_portugues">Básico</label>
+            <input type="radio" id="basico_portugues" name="idioma_portugues" value="Intermedio">
+            <label class="idiomas" for="intermedio_portugues">Intermedio</label>
+            <input type="radio" id="intermedio_portugues" name="idioma_portugues" value="Avanzado">
+            <label class="idiomas" for="avanzado_portugues">Avanzado</label>
+            <input type="radio" id="avanzado_portugues" name="idioma_portugues" value="Fluido">
+            <label class="idiomas" for="fluido_portugues">Fluido</label>
+        </div><br>
+
+        <div class="campo">
+            <label for="aptitudes">Aptitudes:</label>
+            <input list="aptitudes" name="aptitud" id="aptitud">
+            <datalist id="aptitudes">
+                <option value="Habilidades de comunicación">
+                <option value="Habilidades interpersonales">
+                <option value="Habilidades técnicas">
+                <option value="Pensamiento crítico y resolución de problemas">
+                <option value="Adaptabilidad">
+                <option value="Liderazgo">
+                <option value="Trabajo en equipo">
+                <option value="Creatividad">
+                <option value="Gestión del tiempo">
+                <option value="Empatía">
+            </datalist>
+        </div>
+
+        <div class="campo">
+            <label>Habilidades:</label><br>
+                <input type="checkbox" id="habilidad1" name="habilidades[]" value="Programación en Python">
+                <label for="habilidad1" class="idiomas">Programación en Python</label><br>
+                <input type="checkbox" id="habilidad2" name="habilidades[]" value="Desarrollo web (HTML, CSS, JavaScript)">
+                <label for="habilidad2" class="idiomas">Desarrollo web (HTML, CSS, JavaScript)</label><br>
+                <input type="checkbox" id="habilidad3" name="habilidades[]" value="Bases de datos (SQL, MongoDB)">
+                <label for="habilidad3" class="idiomas">Bases de datos (SQL, MongoDB)</label><br>
+                <input type="checkbox" id="habilidad4" name="habilidades[]" value="Algoritmos y estructuras de datos">
+                <label for="habilidad4" class="idiomas">Algoritmos y estructuras de datos</label><br>
+                <input type="checkbox" id="habilidad5" name="habilidades[]" value="Control de versiones (Git)">
+                <label for="habilidad5" class="idiomas">Control de versiones (Git)</label><br>
+                <input type="checkbox" id="habilidad6" name="habilidades[]" value="Resolución de problemas de programación">
+                <label for="habilidad6" class="idiomas">Resolución de problemas de programación</label><br>
+                <input type="checkbox" id="habilidad7" name="habilidades[]" value="Conocimientos en frameworks (por ejemplo, React, Django)">
+                <label for="habilidad7" class="idiomas">Conocimientos en frameworks (por ejemplo, React, Django)</label><br>
+        </div>
+
+        <div class="campo">
+            <label>Lenguajes de programación:</label><br>
+            <input type="checkbox" id="python" name="lenguajes_programacion[]" value="Python">
+            <label for="python" class="idiomas">Python</label><br>
+            <input type="checkbox" id="javascript" name="lenguajes_programacion[]" value="JavaScript">
+            <label for="javascript" class="idiomas">JavaScript</label><br>
+            <input type="checkbox" id="csharp" name="lenguajes_programacion[]" value="C#">
+            <label for="csharp" class="idiomas">C#</label><br>
+            <input type="checkbox" id="html" name="lenguajes_programacion[]" value="HTML">
+            <label for="html" class="idiomas">HTML</label><br>
+            <input type="checkbox" id="php" name="lenguajes_programacion[]" value="PHP">
+            <label for="php" class="idiomas">PHP</label><br>
+            <input type="checkbox" id="java" name="lenguajes_programacion[]" value="Java">
+            <label for="java" class="idiomas">Java</label><br>
+            <input type="checkbox" id="cplus" name="lenguajes_programacion[]" value="C++">
+            <label for="cplus" class="idiomas">C++</label><br>
+            <input type="checkbox" id="ruby" name="lenguajes_programacion[]" value="Ruby">
+            <label for="ruby" class="idiomas">Ruby</label><br>
+            <input type="checkbox" id="swift" name="lenguajes_programacion[]" value="Swift">
+            <label for="swift" class="idiomas">Swift</label><br>
+        </div>
+
+        <div class="campo">
+            <label for="perfil">Perfil:</label><br>
+            <textarea name="perfil" rows="5" cols="40"></textarea>
+        </div>
+
+        <div class="campo">
+            <label for="Experiencia">Experiencia laboral:</label><br>
+            <label for="puesto">Puesto:</label>
+            <input type="text" id="puesto" name="puesto[]" placeholder="Ingrese el puesto">
+        </div>
+        <div class="campo">
+            <label for="periodo">Período:</label>
+            <input type="text" id="periodo" name="periodo[]" placeholder="Ingrese el período">
+        </div>
+        <div class="campo">
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="ciudad" name="ciudad[]" placeholder="Ingrese la ciudad">
+        </div>
+        <div class="campo">
+            <label for="caracteristicas">Características del Puesto:</label>
+            <textarea id="caracteristicas" name="caracteristicas[]" rows="3" cols="50" placeholder="Ingrese las características del puesto"></textarea>
+        </div>
+        <button type="button" id="agregarExperiencia">Agregar Experiencia</button>
+        <div id="experiencia-container"></div><br>
+       
+        <div class="campo">
+            <label for="formacion1">Formacion:</label><br>
+            <label for="grado1">Grado obtenido:</label>
+            <input type="text" id="grado1" name="grado1[]" placeholder="Ingrese el grado">
+        </div>
+        <div class="campo">
+            <label for="periodo1">Período:</label>
+            <input type="text" id="periodo1" name="periodo1[]" placeholder="Ingrese el período">
+        </div>
+        <div class="campo">
+            <label for="centro_estudios1">Centro de estudios:</label>
+            <input type="text" id="centro_estudios1" name="centro_estudios1[]" placeholder="Ingrese el centro de estudios">
+        </div>
+
+        
+        <div class="campo">
+            <label for="formacion2">Formacion:</label><br>
+            <label for="grado2">Grado obtenido:</label>
+            <input type="text" id="grado2" name="grado2[]" placeholder="Ingrese el grado">
+        </div>
+        <div class="campo">
+            <label for="periodo2">Período:</label>
+            <input type="text" id="periodo2" name="periodo2[]" placeholder="Ingrese el período">
+        </div>
+        <div class="campo">
+            <label for="centro_estudios2">Centro de estudios:</label>
+            <input type="text" id="centro_estudios2" name="centro_estudios2[]" placeholder="Ingrese el centro de estudios">
+        </div>
+
+        <div class="campo">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
